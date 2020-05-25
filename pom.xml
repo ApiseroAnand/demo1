@@ -40,13 +40,15 @@
 						<username>AnandMay2020</username>
 						<password>Andy@123</password>
 						<environment>Sandbox</environment>
-						<applicationName>demo1</applicationName>
+						<applicationName>cice-demo12</applicationName>
 						<workerType>MICRO</workerType>
-						<businessGroup>APISERO</businessGroup>
+						<businessGroup>Apisero</businessGroup>
+						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<key>value</key>
 						</properties>
 					</cloudHubDeployment>
+					
 
 				</configuration>
 			</plugin>
