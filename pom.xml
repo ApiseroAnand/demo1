@@ -32,6 +32,20 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>	
+						<uri>https://anypoint.mulesoft.com</uri>	
+						<muleVersion>4.2.2</muleVersion>	
+						<username>AnandMay2020</username>	
+						<password>Andy@123</password>	
+						<environment>Sandbox</environment>	
+						<applicationName>cice-demo12</applicationName>	
+						<workerType>MICRO</workerType>	
+						<businessGroup>Apisero</businessGroup>	
+						<objectStoreV2>true</objectStoreV2>	
+						<properties>	
+							<key>value</key>	
+						</properties>	
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		<plugin>
